@@ -3,6 +3,7 @@ package com.edandaniel.androidbaas
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.database.*
+import com.google.firebase.messaging.FirebaseMessaging
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val database = FirebaseDatabase.getInstance()
         val myRef = database.getReference("temperatura")
-
+        FirebaseMessaging.getInstance().subscribeToTopic("minhatemperaturaiot")
         myRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 // This method is called once with the initial value and again
