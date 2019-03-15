@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "761186291683",
+    "firebase_url": "https://edan-iot.firebaseio.com",
+    "project_id": "edan-iot",
+    "storage_bucket": "edan-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761186291683:android:5cf8fb1b68cc4fdb",
+        "android_client_info": {
+          "package_name": "com.edandaniel.androidbaas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761186291683-7226s78lvu0kf9ockrm9s0sf0t6f4olf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edandaniel.androidbaas",
+            "certificate_hash": "beb224284730e1ec2ea6857c4e52af0c0438cd6c"
+          }
+        },
+        {
+          "client_id": "761186291683-mbdc9fi3j54t3urrd753fg387l6bq4a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0KGGjH87TS1EIXqbGmHuGZfcgBB3Wims"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761186291683-mbdc9fi3j54t3urrd753fg387l6bq4a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
